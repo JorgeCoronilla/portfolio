@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Stint+Ultra+Condensed&family=Teko:wght@300;400;500;600;700&display=swap');
+
+/*
+font-family: 'Aleo', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Stint Ultra Condensed', cursive;
+font-family: 'Teko', sans-serif;
+*/
+
+@import "./cover.scss";
+@import "./coverInfo.scss";
+@import "./profilePic.scss";
+@import "./menu.scss";
+
+html {
+    scroll-behavior: smooth;
+  }
+.section {
+    display: grid;
+    grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% ;
+    grid-template-rows:  5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh; 
+}
+
+.title {
+        grid-area: 1 / 1 / 21 / 3;      
+}
+
+.title2{
+    grid-area: 4 / 4 / 5 / 9;
+}
+
+.stack, .aboutMe{
+    grid-area: 8 / 6 / 17 / 15;
+
+}
+
+.menu {
+    grid-area: 9 / 15 / 10 / 20;
+
+}
+
+.profilePic {
+    grid-area: 1 / 9 / 9 / 13;
+
+}
+
+#cover {
+    background-image: url(../media/laptop.jpg);
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+    object-fit: none;
+}
+
+
+@media only screen and (max-width: 992px) {
+    
+    .title {
+        grid-area: 1 / 1 / 21 / 4;      
+    }
+    
+    .title2{
+        grid-area: 4 / 5 / 5 / 9;
+    }
+    .stack, .aboutMe{
+        grid-area: 9 / 6 / 17 / 17;
+    
+    }
+ 
+    }
