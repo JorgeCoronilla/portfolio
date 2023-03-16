@@ -23,7 +23,7 @@ export const Section1 = () => {
                     <AboutMe />
                 }
 
-                <Menu setDisplay={setDisplay}/>
+                <Menu setDisplay={setDisplay} display={display}/>
 
             </div>
         </div>

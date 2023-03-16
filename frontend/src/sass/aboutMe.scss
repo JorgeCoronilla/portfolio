@@ -1,0 +1,38 @@
+.aboutMe {
+    background-color:rgba(255, 250, 205, 0.884);
+    border: 6px solid rgb(27, 175, 175);
+    height:fit-content;
+    width: 100%;
+    padding: 40px 0 10px;
+}
+
+.aboutMe p {
+    font-family: 'Space Mono', monospace;
+
+    font-size: 1.6vh;
+    margin: 12px 35px;
+    line-height: 1.3;
+    color:#424141;
+}
+
+.aboutMe h4{
+    font-family: 'Aleo', serif;
+    color: #ec5656;
+    font-size: 6vh;
+    font-weight: 400;
+    margin: 5px 35px 0;
+
+}
+
+.aboutMe span {
+    font-family: 'Space Mono', monospace;
+    font-size: 3vh;
+    color: black;
+}
+
+mark {
+    background-color: #ec5656b6;
+    border-radius: 5px;
+    padding: 0 6px;
+
+}

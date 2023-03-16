@@ -1,0 +1,47 @@
+
+.typing {
+  width: 23ch;
+  animation: typing 3s steps(28), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: 'Poppins', sans-serif;
+  font-size: 4.8vh;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3),
+    0px -2px 3px rgba(255, 255, 255, 0.3);
+
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+.typing span {
+  color: #ee7878; // #ff5e5e
+}
+
+@media only screen and (max-width: 1250px) {
+
+  .typing {
+    font-size: 4.3vh;
+  }
+  
+}
+
+
+@media only screen and (max-width: 992px) {
+
+  .typing {
+    font-size: 4.3vh;
+  }
+  
+}
